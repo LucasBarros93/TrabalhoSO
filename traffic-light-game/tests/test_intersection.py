@@ -15,17 +15,17 @@ class TestIntersection(unittest.TestCase):
         self.intersection.add_vehicle(vehicle)
         self.assertIn(vehicle, self.intersection.vehicles)
 
-    def test_control_traffic_green_light(self):
-        self.traffic_light.change_light('green')
+    def test_control_traffic_verde_light(self):
+        self.traffic_light.change_light('verde')
         self.intersection.control_traffic()
-        # Assuming vehicles can move when the light is green
+        # Assuming vehicles can move when the light is verde
         for vehicle in self.intersection.vehicles:
             self.assertEqual(vehicle.position[0], 1)  # Example position update
 
-    def test_control_traffic_red_light(self):
-        self.traffic_light.change_light('red')
+    def test_control_traffic_vermelho_light(self):
+        self.traffic_light.change_light('vermelho')
         self.intersection.control_traffic()
-        # Assuming vehicles cannot move when the light is red
+        # Assuming vehicles cannot move when the light is vermelho
         for vehicle in self.intersection.vehicles:
             self.assertEqual(vehicle.position[0], 0)  # Position should not change
 

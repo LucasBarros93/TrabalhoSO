@@ -10,15 +10,15 @@ class TestVehicle(unittest.TestCase):
     def test_initial_position(self):
         self.assertEqual(self.vehicle.position, (0, 0))
 
-    def test_move_vehicle_green_light(self):
+    def test_move_vehicle_verde_light(self):
         traffic_light = TrafficLight()
-        traffic_light.change_light('green')
+        traffic_light.change_light('verde')
         self.vehicle.move(traffic_light)
         self.assertEqual(self.vehicle.position, (1, 0))  # Assuming move increments x by 1
 
-    def test_move_vehicle_red_light(self):
+    def test_move_vehicle_vermelho_light(self):
         traffic_light = TrafficLight()
-        traffic_light.change_light('red')
+        traffic_light.change_light('vermelho')
         initial_position = self.vehicle.position
         self.vehicle.move(traffic_light)
         self.assertEqual(self.vehicle.position, initial_position)  # Position should not change

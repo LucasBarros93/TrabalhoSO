@@ -7,13 +7,13 @@ class TestTrafficLight(unittest.TestCase):
         self.traffic_light = TrafficLight()
 
     def test_initial_light_state(self):
-        self.assertEqual(self.traffic_light.get_light(), 'red')
+        self.assertEqual(self.traffic_light.get_light(), 'vermelho')
 
     def test_change_light(self):
         self.traffic_light.change_light()
-        self.assertEqual(self.traffic_light.get_light(), 'green')
+        self.assertEqual(self.traffic_light.get_light(), 'verde')
         self.traffic_light.change_light()
-        self.assertEqual(self.traffic_light.get_light(), 'red')
+        self.assertEqual(self.traffic_light.get_light(), 'vermelho')
 
 if __name__ == '__main__':
     unittest.main()
