@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Ana Silva",
+    "score": 100,
+    "correct": 10,
+    "total": 10,
+    "percentage": 100.0,
+    "date": "27/06/2025 09:15"
+  },
+  {
+    "name": "Pedro Santos",
+    "score": 90,
+    "correct": 9,
+    "total": 10,
+    "percentage": 90.0,
+    "date": "27/06/2025 10:22"
+  },
+  {
+    "name": "Maria Costa",
+    "score": 80,
+    "correct": 8,
+    "total": 10,
+    "percentage": 80.0,
+    "date": "27/06/2025 11:33"
+  },
+  {
+    "name": "João Oliveira",
+    "score": 150,
+    "correct": 15,
+    "total": 15,
+    "percentage": 100.0,
+    "date": "26/06/2025 14:45"
+  },
+  {
+    "name": "Carla Mendes",
+    "score": 60,
+    "correct": 6,
+    "total": 10,
+    "percentage": 60.0,
+    "date": "26/06/2025 16:20"
+  },
+  {
+    "name": "Lucas Ferreira",
+    "score": 70,
+    "correct": 7,
+    "total": 10,
+    "percentage": 70.0,
+    "date": "25/06/2025 08:30"
+  },
+  {
+    "name": "Fernanda Lima",
+    "score": 85,
+    "correct": 17,
+    "total": 20,
+    "percentage": 85.0,
+    "date": "25/06/2025 19:45"
+  },
+  {
+    "name": "Rafael Souza",
+    "score": 40,
+    "correct": 4,
+    "total": 10,
+    "percentage": 40.0,
+    "date": "24/06/2025 20:10"
+  },
+  {
+    "name": "Juliana Rocha",
+    "score": 95,
+    "correct": 19,
+    "total": 20,
+    "percentage": 95.0,
+    "date": "24/06/2025 15:35"
+  },
+  {
+    "name": "Bruno Alves",
+    "score": 50,
+    "correct": 5,
+    "total": 10,
+    "percentage": 50.0,
+    "date": "23/06/2025 13:20"
+  },
+  {
+    "name": "Camila Barbosa",
+    "score": 120,
+    "correct": 12,
+    "total": 15,
+    "percentage": 80.0,
+    "date": "23/06/2025 17:55"
+  },
+  {
+    "name": "Diego Martins",
+    "score": 30,
+    "correct": 3,
+    "total": 10,
+    "percentage": 30.0,
+    "date": "22/06/2025 21:40"
+  },
+  {
+    "name": "Larissa Gomes",
+    "score": 200,
+    "correct": 20,
+    "total": 20,
+    "percentage": 100.0,
+    "date": "22/06/2025 10:15"
+  },
+  {
+    "name": "Gustavo Reis",
+    "score": 75,
+    "correct": 15,
+    "total": 20,
+    "percentage": 75.0,
+    "date": "21/06/2025 14:30"
+  },
+  {
+    "name": "Patrícia Nunes",
+    "score": 65,
+    "correct": 13,
+    "total": 20,
+    "percentage": 65.0,
+    "date": "21/06/2025 16:45"
+  },
+  {
+    "name": "Rodrigo Castro",
+    "score": 20,
+    "correct": 2,
+    "total": 5,
+    "percentage": 40.0,
+    "date": "20/06/2025 09:20"
+  },
+  {
+    "name": "Vanessa Dias",
+    "score": 110,
+    "correct": 11,
+    "total": 15,
+    "percentage": 73.3,
+    "date": "20/06/2025 18:25"
+  },
+  {
+    "name": "Thiago Moreira",
+    "score": 140,
+    "correct": 14,
+    "total": 15,
+    "percentage": 93.3,
+    "date": "19/06/2025 12:10"
+  },
+  {
+    "name": "Isabela Cardoso",
+    "score": 35,
+    "correct": 7,
+    "total": 20,
+    "percentage": 35.0,
+    "date": "19/06/2025 20:50"
+  },
+  {
+    "name": "Marcos Pinto",
+    "score": 45,
+    "correct": 9,
+    "total": 20,
+    "percentage": 45.0,
+    "date": "18/06/2025 11:40"
+  },
+  {
+    "name": "Aline Teixeira",
+    "score": 25,
+    "correct": 5,
+    "total": 10,
+    "percentage": 50.0,
+    "date": "18/06/2025 15:15"
+  },
+  {
+    "name": "Felipe Correia",
+    "score": 180,
+    "correct": 18,
+    "total": 20,
+    "percentage": 90.0,
+    "date": "17/06/2025 13:55"
+  },
+  {
+    "name": "Natália Viana",
+    "score": 55,
+    "correct": 11,
+    "total": 20,
+    "percentage": 55.0,
+    "date": "17/06/2025 19:30"
+  },
+  {
+    "name": "Gabriel Fonseca",
+    "score": 160,
+    "correct": 16,
+    "total": 20,
+    "percentage": 80.0,
+    "date": "16/06/2025 22:05"
+  },
+  {
+    "name": "João Medeiros",
+    "score": 50,
+    "correct": 5,
+    "total": 5,
+    "percentage": 100.0,
+    "date": "27/06/2025 23:47"
+  }
+]

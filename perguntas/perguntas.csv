@@ -1,0 +1,101 @@
+pergunta,alternativa_a,alternativa_b,alternativa_c,alternativa_d,resposta_correta
+Qual é uma vantagem do uso de threads?,Eliminam bugs automaticamente,Deixam o programa mais seguro,Reduzem o uso de memória,Permitem dividir tarefas e usar melhor os núcleos do processador,D
+Qual é uma vantagem do uso de threads?,Deixam o programa mais seguro,Reduzem o uso de memória,Permitem dividir tarefas e usar melhor os núcleos do processador,Eliminam bugs automaticamente,C
+Quando ocorre uma condição de corrida?,Quando duas threads acessam e modificam um recurso ao mesmo tempo,Quando há múltiplas CPUs,Quando não há threads,Quando o código é lento,A
+Qual é uma vantagem do uso de threads?,Reduzem o uso de memória,Permitem dividir tarefas e usar melhor os núcleos do processador,Deixam o programa mais seguro,Eliminam bugs automaticamente,B
+Qual biblioteca padrão do Python permite trabalhar com threads?,numpy,threading,asyncio,math,B
+O que pode causar deadlock?,Uso de listas em paralelo,Threads esperando eternamente por recursos,Excesso de memória,Threads bem sincronizadas,B
+Qual o principal objetivo de um semáforo?,Interromper uma thread,Evitar acesso concorrente a um recurso compartilhado,Permitir acesso simultâneo a um recurso,Aumentar a velocidade do programa,B
+Para que serve o método release() em um semáforo?,Permitir que outra thread use o recurso,Salvar os dados no disco,Bloquear a execução da thread,Encerrar uma thread,A
+Qual biblioteca padrão do Python permite trabalhar com threads?,threading,math,numpy,asyncio,A
+Semáforos são usados para?,Garantir que o código rode mais rápido,Iniciar múltiplos processos,Evitar uso simultâneo de recursos críticos,Impedir o uso de memória,C
+Qual o principal objetivo de um semáforo?,Interromper uma thread,Evitar acesso concorrente a um recurso compartilhado,Aumentar a velocidade do programa,Permitir acesso simultâneo a um recurso,B
+Qual o principal objetivo de um semáforo?,Evitar acesso concorrente a um recurso compartilhado,Permitir acesso simultâneo a um recurso,Aumentar a velocidade do programa,Interromper uma thread,A
+Semáforos são usados para?,Impedir o uso de memória,Garantir que o código rode mais rápido,Iniciar múltiplos processos,Evitar uso simultâneo de recursos críticos,D
+O que o método acquire() faz em um semáforo?,Bloqueia o semáforo até estar disponível,Cria uma nova thread,Finaliza a execução do programa,Lê uma variável global,A
+O que é exclusão mútua?,Quando duas threads se ajudam mutuamente,Quando nenhuma thread acessa o recurso,Quando uma thread exclui outra,Quando só uma thread pode usar um recurso por vez,D
+Para que serve o método release() em um semáforo?,Encerrar uma thread,Bloquear a execução da thread,Salvar os dados no disco,Permitir que outra thread use o recurso,D
+O que o método acquire() faz em um semáforo?,Cria uma nova thread,Bloqueia o semáforo até estar disponível,Finaliza a execução do programa,Lê uma variável global,B
+Quando ocorre uma condição de corrida?,Quando duas threads acessam e modificam um recurso ao mesmo tempo,Quando há múltiplas CPUs,Quando o código é lento,Quando não há threads,A
+O que é exclusão mútua?,Quando duas threads se ajudam mutuamente,Quando uma thread exclui outra,Quando nenhuma thread acessa o recurso,Quando só uma thread pode usar um recurso por vez,D
+O que o método acquire() faz em um semáforo?,Lê uma variável global,Finaliza a execução do programa,Cria uma nova thread,Bloqueia o semáforo até estar disponível,D
+Para que serve o método release() em um semáforo?,Salvar os dados no disco,Encerrar uma thread,Permitir que outra thread use o recurso,Bloquear a execução da thread,C
+O que o método acquire() faz em um semáforo?,Cria uma nova thread,Bloqueia o semáforo até estar disponível,Finaliza a execução do programa,Lê uma variável global,B
+O que é uma thread?,Um fluxo de execução dentro de um processo,Uma função especial do Python,Um processo completo,Uma biblioteca de imagens,A
+O que pode causar deadlock?,Threads esperando eternamente por recursos,Uso de listas em paralelo,Excesso de memória,Threads bem sincronizadas,A
+Qual biblioteca padrão do Python permite trabalhar com threads?,numpy,threading,asyncio,math,B
+Para que serve o método release() em um semáforo?,Encerrar uma thread,Permitir que outra thread use o recurso,Bloquear a execução da thread,Salvar os dados no disco,B
+Para que serve o método release() em um semáforo?,Encerrar uma thread,Salvar os dados no disco,Permitir que outra thread use o recurso,Bloquear a execução da thread,C
+Semáforos são usados para?,Iniciar múltiplos processos,Evitar uso simultâneo de recursos críticos,Garantir que o código rode mais rápido,Impedir o uso de memória,B
+Para que serve o método release() em um semáforo?,Bloquear a execução da thread,Salvar os dados no disco,Permitir que outra thread use o recurso,Encerrar uma thread,C
+O que é exclusão mútua?,Quando só uma thread pode usar um recurso por vez,Quando nenhuma thread acessa o recurso,Quando duas threads se ajudam mutuamente,Quando uma thread exclui outra,A
+O que o método acquire() faz em um semáforo?,Lê uma variável global,Bloqueia o semáforo até estar disponível,Cria uma nova thread,Finaliza a execução do programa,B
+O que pode causar deadlock?,Threads bem sincronizadas,Threads esperando eternamente por recursos,Uso de listas em paralelo,Excesso de memória,B
+O que é uma thread?,Uma função especial do Python,Um fluxo de execução dentro de um processo,Uma biblioteca de imagens,Um processo completo,B
+Semáforos são usados para?,Iniciar múltiplos processos,Impedir o uso de memória,Evitar uso simultâneo de recursos críticos,Garantir que o código rode mais rápido,C
+Quando ocorre uma condição de corrida?,Quando duas threads acessam e modificam um recurso ao mesmo tempo,Quando não há threads,Quando o código é lento,Quando há múltiplas CPUs,A
+Qual biblioteca padrão do Python permite trabalhar com threads?,asyncio,numpy,threading,math,C
+Semáforos são usados para?,Evitar uso simultâneo de recursos críticos,Iniciar múltiplos processos,Impedir o uso de memória,Garantir que o código rode mais rápido,A
+Qual é uma vantagem do uso de threads?,Deixam o programa mais seguro,Permitem dividir tarefas e usar melhor os núcleos do processador,Reduzem o uso de memória,Eliminam bugs automaticamente,B
+Quando ocorre uma condição de corrida?,Quando duas threads acessam e modificam um recurso ao mesmo tempo,Quando o código é lento,Quando há múltiplas CPUs,Quando não há threads,A
+Qual o principal objetivo de um semáforo?,Interromper uma thread,Evitar acesso concorrente a um recurso compartilhado,Aumentar a velocidade do programa,Permitir acesso simultâneo a um recurso,B
+Para que serve o método release() em um semáforo?,Encerrar uma thread,Salvar os dados no disco,Bloquear a execução da thread,Permitir que outra thread use o recurso,D
+Para que serve o método release() em um semáforo?,Encerrar uma thread,Bloquear a execução da thread,Permitir que outra thread use o recurso,Salvar os dados no disco,C
+Para que serve o método release() em um semáforo?,Salvar os dados no disco,Encerrar uma thread,Bloquear a execução da thread,Permitir que outra thread use o recurso,D
+Qual é uma vantagem do uso de threads?,Reduzem o uso de memória,Permitem dividir tarefas e usar melhor os núcleos do processador,Eliminam bugs automaticamente,Deixam o programa mais seguro,B
+Qual é uma vantagem do uso de threads?,Eliminam bugs automaticamente,Deixam o programa mais seguro,Reduzem o uso de memória,Permitem dividir tarefas e usar melhor os núcleos do processador,D
+O que é exclusão mútua?,Quando duas threads se ajudam mutuamente,Quando só uma thread pode usar um recurso por vez,Quando nenhuma thread acessa o recurso,Quando uma thread exclui outra,B
+Qual biblioteca padrão do Python permite trabalhar com threads?,numpy,asyncio,math,threading,D
+O que é exclusão mútua?,Quando duas threads se ajudam mutuamente,Quando uma thread exclui outra,Quando nenhuma thread acessa o recurso,Quando só uma thread pode usar um recurso por vez,D
+O que o método acquire() faz em um semáforo?,Lê uma variável global,Finaliza a execução do programa,Cria uma nova thread,Bloqueia o semáforo até estar disponível,D
+Quando ocorre uma condição de corrida?,Quando não há threads,Quando duas threads acessam e modificam um recurso ao mesmo tempo,Quando há múltiplas CPUs,Quando o código é lento,B
+Semáforos são usados para?,Evitar uso simultâneo de recursos críticos,Impedir o uso de memória,Garantir que o código rode mais rápido,Iniciar múltiplos processos,A
+O que é exclusão mútua?,Quando nenhuma thread acessa o recurso,Quando só uma thread pode usar um recurso por vez,Quando uma thread exclui outra,Quando duas threads se ajudam mutuamente,B
+O que pode causar deadlock?,Threads bem sincronizadas,Excesso de memória,Uso de listas em paralelo,Threads esperando eternamente por recursos,D
+O que é uma thread?,Um processo completo,Uma biblioteca de imagens,Uma função especial do Python,Um fluxo de execução dentro de um processo,D
+Para que serve o método release() em um semáforo?,Permitir que outra thread use o recurso,Encerrar uma thread,Bloquear a execução da thread,Salvar os dados no disco,A
+O que é exclusão mútua?,Quando duas threads se ajudam mutuamente,Quando só uma thread pode usar um recurso por vez,Quando nenhuma thread acessa o recurso,Quando uma thread exclui outra,B
+O que é uma thread?,Uma biblioteca de imagens,Um processo completo,Uma função especial do Python,Um fluxo de execução dentro de um processo,D
+Semáforos são usados para?,Iniciar múltiplos processos,Impedir o uso de memória,Evitar uso simultâneo de recursos críticos,Garantir que o código rode mais rápido,C
+Qual o principal objetivo de um semáforo?,Interromper uma thread,Permitir acesso simultâneo a um recurso,Aumentar a velocidade do programa,Evitar acesso concorrente a um recurso compartilhado,D
+Quando ocorre uma condição de corrida?,Quando há múltiplas CPUs,Quando o código é lento,Quando duas threads acessam e modificam um recurso ao mesmo tempo,Quando não há threads,C
+Qual biblioteca padrão do Python permite trabalhar com threads?,math,numpy,threading,asyncio,C
+Para que serve o método release() em um semáforo?,Permitir que outra thread use o recurso,Salvar os dados no disco,Encerrar uma thread,Bloquear a execução da thread,A
+O que o método acquire() faz em um semáforo?,Cria uma nova thread,Bloqueia o semáforo até estar disponível,Finaliza a execução do programa,Lê uma variável global,B
+O que é exclusão mútua?,Quando duas threads se ajudam mutuamente,Quando uma thread exclui outra,Quando nenhuma thread acessa o recurso,Quando só uma thread pode usar um recurso por vez,D
+O que é uma thread?,Um processo completo,Uma biblioteca de imagens,Um fluxo de execução dentro de um processo,Uma função especial do Python,C
+O que pode causar deadlock?,Excesso de memória,Uso de listas em paralelo,Threads esperando eternamente por recursos,Threads bem sincronizadas,C
+Para que serve o método release() em um semáforo?,Bloquear a execução da thread,Encerrar uma thread,Permitir que outra thread use o recurso,Salvar os dados no disco,C
+Semáforos são usados para?,Iniciar múltiplos processos,Garantir que o código rode mais rápido,Impedir o uso de memória,Evitar uso simultâneo de recursos críticos,D
+Semáforos são usados para?,Evitar uso simultâneo de recursos críticos,Impedir o uso de memória,Iniciar múltiplos processos,Garantir que o código rode mais rápido,A
+O que é uma thread?,Um processo completo,Uma função especial do Python,Um fluxo de execução dentro de um processo,Uma biblioteca de imagens,C
+Qual é uma vantagem do uso de threads?,Reduzem o uso de memória,Eliminam bugs automaticamente,Deixam o programa mais seguro,Permitem dividir tarefas e usar melhor os núcleos do processador,D
+O que é uma thread?,Uma biblioteca de imagens,Um processo completo,Uma função especial do Python,Um fluxo de execução dentro de um processo,D
+Semáforos são usados para?,Impedir o uso de memória,Evitar uso simultâneo de recursos críticos,Garantir que o código rode mais rápido,Iniciar múltiplos processos,B
+O que é uma thread?,Uma função especial do Python,Um fluxo de execução dentro de um processo,Um processo completo,Uma biblioteca de imagens,B
+Qual biblioteca padrão do Python permite trabalhar com threads?,threading,asyncio,numpy,math,A
+Qual é uma vantagem do uso de threads?,Deixam o programa mais seguro,Eliminam bugs automaticamente,Reduzem o uso de memória,Permitem dividir tarefas e usar melhor os núcleos do processador,D
+O que é exclusão mútua?,Quando duas threads se ajudam mutuamente,Quando nenhuma thread acessa o recurso,Quando uma thread exclui outra,Quando só uma thread pode usar um recurso por vez,D
+O que o método acquire() faz em um semáforo?,Finaliza a execução do programa,Cria uma nova thread,Bloqueia o semáforo até estar disponível,Lê uma variável global,C
+O que é uma thread?,Uma biblioteca de imagens,Um processo completo,Um fluxo de execução dentro de um processo,Uma função especial do Python,C
+Qual é uma vantagem do uso de threads?,Permitem dividir tarefas e usar melhor os núcleos do processador,Reduzem o uso de memória,Deixam o programa mais seguro,Eliminam bugs automaticamente,A
+Quando ocorre uma condição de corrida?,Quando há múltiplas CPUs,Quando duas threads acessam e modificam um recurso ao mesmo tempo,Quando não há threads,Quando o código é lento,B
+Qual o principal objetivo de um semáforo?,Aumentar a velocidade do programa,Interromper uma thread,Evitar acesso concorrente a um recurso compartilhado,Permitir acesso simultâneo a um recurso,C
+Qual é uma vantagem do uso de threads?,Reduzem o uso de memória,Permitem dividir tarefas e usar melhor os núcleos do processador,Deixam o programa mais seguro,Eliminam bugs automaticamente,B
+O que é exclusão mútua?,Quando só uma thread pode usar um recurso por vez,Quando nenhuma thread acessa o recurso,Quando duas threads se ajudam mutuamente,Quando uma thread exclui outra,A
+O que pode causar deadlock?,Excesso de memória,Threads bem sincronizadas,Threads esperando eternamente por recursos,Uso de listas em paralelo,C
+Qual é uma vantagem do uso de threads?,Permitem dividir tarefas e usar melhor os núcleos do processador,Eliminam bugs automaticamente,Deixam o programa mais seguro,Reduzem o uso de memória,A
+Semáforos são usados para?,Garantir que o código rode mais rápido,Impedir o uso de memória,Evitar uso simultâneo de recursos críticos,Iniciar múltiplos processos,C
+O que é uma thread?,Uma biblioteca de imagens,Uma função especial do Python,Um processo completo,Um fluxo de execução dentro de um processo,D
+Qual o principal objetivo de um semáforo?,Permitir acesso simultâneo a um recurso,Evitar acesso concorrente a um recurso compartilhado,Aumentar a velocidade do programa,Interromper uma thread,B
+O que pode causar deadlock?,Excesso de memória,Uso de listas em paralelo,Threads esperando eternamente por recursos,Threads bem sincronizadas,C
+Qual o principal objetivo de um semáforo?,Aumentar a velocidade do programa,Interromper uma thread,Evitar acesso concorrente a um recurso compartilhado,Permitir acesso simultâneo a um recurso,C
+Para que serve o método release() em um semáforo?,Encerrar uma thread,Bloquear a execução da thread,Permitir que outra thread use o recurso,Salvar os dados no disco,C
+Quando ocorre uma condição de corrida?,Quando o código é lento,Quando não há threads,Quando duas threads acessam e modificam um recurso ao mesmo tempo,Quando há múltiplas CPUs,C
+Qual é uma vantagem do uso de threads?,Permitem dividir tarefas e usar melhor os núcleos do processador,Deixam o programa mais seguro,Eliminam bugs automaticamente,Reduzem o uso de memória,A
+Semáforos são usados para?,Evitar uso simultâneo de recursos críticos,Garantir que o código rode mais rápido,Iniciar múltiplos processos,Impedir o uso de memória,A
+Quando ocorre uma condição de corrida?,Quando duas threads acessam e modificam um recurso ao mesmo tempo,Quando não há threads,Quando o código é lento,Quando há múltiplas CPUs,A
+O que o método acquire() faz em um semáforo?,Lê uma variável global,Finaliza a execução do programa,Cria uma nova thread,Bloqueia o semáforo até estar disponível,D
+Para que serve o método release() em um semáforo?,Encerrar uma thread,Permitir que outra thread use o recurso,Salvar os dados no disco,Bloquear a execução da thread,B
+O que é uma thread?,Uma biblioteca de imagens,Uma função especial do Python,Um processo completo,Um fluxo de execução dentro de um processo,D
+O que é exclusão mútua?,Quando duas threads se ajudam mutuamente,Quando nenhuma thread acessa o recurso,Quando só uma thread pode usar um recurso por vez,Quando uma thread exclui outra,C

@@ -1,0 +1,32 @@
+# Requirements for Quiz Educativo: Semáforos e Threads
+# Este projeto usa apenas bibliotecas padrão do Python
+
+# Python version required: 3.6+
+
+# VERSÃO TERMINAL/CONSOLE:
+# Módulos padrão utilizados:
+# - csv (leitura das perguntas)
+# - json (salvamento de pontuações)  
+# - random (seleção aleatória de perguntas)
+# - datetime (timestamp das partidas)
+# - os (manipulação de caminhos e limpeza de tela)
+# - sys (configuração de paths)
+
+# VERSÃO INTERFACE GRÁFICA (GUI):
+# Módulos adicionais:
+# - tkinter (interface gráfica - incluído na maioria das instalações Python)
+# - tkinter.ttk (widgets com tema)
+# - tkinter.messagebox (caixas de diálogo)
+# - tkinter.scrolledtext (texto com scroll)
+
+# INSTALAÇÃO TKINTER (se necessário):
+# Ubuntu/Debian: sudo apt-get install python3-tk
+# CentOS/RHEL: sudo yum install tkinter
+# Windows/macOS: geralmente já incluído
+
+# Nenhuma dependência externa é necessária!
+# Para executar o jogo, simplesmente use:
+# python3 main.py
+
+# Opcional: Para cores mais avançadas no terminal (não implementado)
+# colorama>=0.4.4
