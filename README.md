@@ -1,42 +1,22 @@
-# 🚦 TrabalhoSO: Simulador de Cruzamento de Trânsito
+# 🎯 TrabalhoSO: Quiz Educativo sobre Sistemas Operacionais
 
-Um projeto educativo completo que combina **teoria** e **prática** para ensinar conceitos fundamentais de **Sistemas Operacionais**, incluindo threads, semáforos, escalonamento de processos e sincronização.
+Um projeto educativo interativo para ensinar conceitos fundamentais de **Sistemas Operacionais**, incluindo threads, semáforos, escalonamento de processos e sincronização através de um sistema de quiz gamificado.
 
 ## 📋 Descrição
 
-Este projeto oferece duas experiências de aprendizado complementares:
+Este projeto oferece uma experiência de aprendizado interativa e gamificada:
 
-1. **🎮 Simulador de Cruzamento (Novo!)**: Um jogo visual interativo onde você controla um semáforo, gerenciando filas de carros que representam threads com diferentes prioridades
-2. **🎯 Quiz Educativo**: Sistema de perguntas para testar conhecimentos sobre programação concorrente e sincronização
+**🎯 Quiz Educativo**: Sistema completo de perguntas e respostas para testar e consolidar conhecimentos sobre programação concorrente, sincronização e conceitos fundamentais de Sistemas Operacionais.
 
-O projeto simula conceitos reais de SO de forma prática e visual, facilitando o entendimento de tópicos complexos.
+O projeto utiliza gamificação para facilitar o entendimento de tópicos complexos, oferecendo feedback imediato e material teórico complementar.
 
 ## 🎮 Funcionalidades
 
-### 🚦 Simulador de Cruzamento de Trânsito (Novo!)
-- **Interface visual moderna**: HTML5, CSS3 e JavaScript modularizado
-- **Gerenciamento de filas**: Até 3 carros por direção (Norte, Sul, Leste, Oeste)
-- **Tipos de veículos**: 
-  - 🚗 Carros comuns (prioridade normal)
-  - 🚓 Polícia (alta prioridade)
-  - 🚑 Ambulância (prioridade máxima)
-- **Sistema de pontuação**: Baseado em eficiência e priorização
-- **Mecânicas de jogo**:
-  - Timeout de veículos (simula starvation)
-  - Bloqueio de vias durante travessia
-  - Notificações visuais de novos veículos
-  - Animações de travessia
-  - Sistema de contagem visual das filas
-  - Imagens personalizadas para carros comuns
-- **Backend Flask**: Servidor para servir a aplicação
-- **Conceitos de SO demonstrados**:
-  - **Threads**: Cada carro representa uma thread
-  - **Semáforos**: O cruzamento é uma seção crítica
-  - **Escalonamento**: O jogador atua como scheduler
-  - **Prioridades**: Diferentes tipos de veículos
-  - **Starvation**: Timeout de veículos
-
 ### 🎯 Quiz Educativo
+#### Interface Dupla
+- **🖥️ Interface Gráfica (tkinter)**: Design moderno e intuitivo
+- **⌨️ Interface Terminal/Console**: Experiência clássica para terminais
+
 #### Menu Principal
 - **🎮 Começar Quiz**: Inicia uma sessão de perguntas personalizada
 - **📚 Ver Resumo Teórico**: Material didático completo sobre o assunto
@@ -44,100 +24,86 @@ O projeto simula conceitos reais de SO de forma prática e visual, facilitando o
 - **❓ Sobre o Jogo**: Informações sobre o projeto
 
 #### Sistema de Quiz
-- Perguntas aleatórias do banco de dados
-- Sistema de pontuação (10 pontos por acerto)
-- Feedback imediato com explicações
-- Relatório final de desempenho
-- Salvamento opcional do histórico
+- **Perguntas aleatórias** do banco de dados CSV
+- **Sistema de pontuação** (10 pontos por acerto)
+- **Feedback imediato** com explicações detalhadas
+- **Relatório final** de desempenho com estatísticas
+- **Salvamento opcional** do histórico de pontuações
+- **Múltiplas tentativas** para reforçar o aprendizado
 
-#### Conteúdo Educativo
-- Conceitos básicos de threads
-- Semáforos e sincronização
-- Problemas comuns (deadlock, race conditions)
-- Implementação em Python
-- Exemplos práticos
+#### Conteúdo Educativo Abrangente
+- **Conceitos básicos** de threads e processos
+- **Semáforos e sincronização** em detalhes
+- **Problemas clássicos** (deadlock, race conditions, starvation)
+- **Implementação prática** em Python
+- **Exemplos de código** comentados
+- **Boas práticas** de programação concorrente
 
 ## 📁 Estrutura do Projeto
 
 ```
 TrabalhoSO/
-├── 🚦 SIMULADOR DE CRUZAMENTO (NOVO!)
-│   ├── index.html              # Estrutura principal do jogo
-│   ├── style.css               # Estilos visuais modernos
-│   ├── game.js                 # Lógica do jogo (modularizado)
-│   ├── app.py                  # Backend Flask para servir aplicação
-│   └── imagens/                # Assets visuais
-│       └── car.png             # Imagem personalizada do carro comum
-├── 🎯 QUIZ EDUCATIVO
+├── 🎯 APLICAÇÃO PRINCIPAL
 │   ├── main.py                 # Interface terminal/console
 │   ├── main_gui.py             # Interface gráfica (tkinter)
-│   ├── start_quiz.sh           # Script de inicialização
+│   ├── start_quiz.sh           # Script de inicialização (Linux/macOS)
 │   ├── requirements.txt        # Dependências Python
+│   ├── README.md               # Este arquivo
+│   ├── install_linux.sh       # Script de instalação para Linux
+│   └── install_windows.bat     # Script de instalação para Windows
+├── 📊 DADOS E CONTEÚDO
 │   ├── perguntas/
 │   │   └── perguntas.csv       # Base de dados das perguntas
+│   └── data/
+│       └── scores.json         # Histórico de pontuações
+├── 🧩 CÓDIGO FONTE MODULAR
 │   ├── src/
 │   │   ├── __init__.py
 │   │   ├── quiz_game.py        # Classe principal do jogo
 │   │   ├── quiz_gui.py         # Interface gráfica tkinter
 │   │   ├── question_manager.py # Gerenciador de perguntas
-│   │   ├── score_manager.py    # Sistema de pontuação
-│   │   └── content_summary.py  # Resumo teórico
-│   ├── data/
-│   │   └── scores.json         # Histórico de pontuações
+│   │   ├── score_manager.py    # Sistema de pontuação e histórico
+│   │   └── content_summary.py  # Resumo teórico completo
 │   └── utils/
 │       ├── __init__.py
-│       └── helpers.py          # Funções auxiliares
-├── 📚 DOCUMENTAÇÃO E ARQUIVOS
-│   ├── README.md               # Este arquivo
-│   └── archive/                # Versões anteriores e demos
-│       ├── interp.py           # Script original
-│       ├── sugestao_cloudIA.html # Versão monolítica do simulador
-│       └── demos/              # Demonstrações e testes
-│           ├── demo.py         # Demonstração básica
-│           ├── demo_colors.py  # Teste de cores
-│           └── demo_gui.py     # Teste de interface
-└── 📊 DADOS COMPARTILHADOS
-    └── scores.json             # Histórico de pontuações global
+│       └── helpers.py          # Funções auxiliares e utilitários
+└── 📚 DOCUMENTAÇÃO E ARQUIVOS
+    └── archive/                # Versões anteriores e demos
+        ├── interp.py           # Script original do projeto
+        ├── docs/               # Documentação adicional
+        │   └── GUI_README.md   # Documentação da interface gráfica
+        └── demos/              # Demonstrações e testes
+            ├── demo.py         # Demonstração básica
+            ├── demo_colors.py  # Teste de cores no terminal
+            └── demo_gui.py     # Teste da interface gráfica
 ```
 
 ## 🚀 Como Usar
 
-### 🚦 Simulador de Cruzamento
+### ⚡ Instalação Rápida
 
-1. **Navegue até o diretório do projeto:**
-   ```bash
-   cd /home/joaopedromm/bolao/python_codes/TrabalhoSO
-   ```
+> 📖 **Para instruções detalhadas de instalação, consulte [INSTALL.md](INSTALL.md)**
 
-2. **Opção 1: Executar diretamente no navegador**
-   ```bash
-   # Abra o arquivo index.html no seu navegador
-   open index.html  # macOS
-   xdg-open index.html  # Linux
-   start index.html  # Windows
-   ```
+**Windows:**
+```batch
+# Duplo clique no arquivo ou execute via linha de comando:
+install_windows.bat
+```
 
-3. **Opção 2: Usar o servidor Flask (Recomendado)**
-   ```bash
-   # Instale as dependências (se necessário)
-   pip install flask
-   
-   # Execute o servidor
-   python3 app.py
-   
-   # Acesse no navegador: http://localhost:5000
-   ```
+**Linux/macOS:**
+```bash
+# Torne o script executável e execute:
+chmod +x install_linux.sh
+./install_linux.sh
+```
 
-4. **Como jogar:**
-   - Clique em **"Start Game"** para iniciar
-   - Carros aparecerão aleatoriamente nas 4 direções (Norte, Sul, Leste, Oeste)
-   - Cada direção pode ter até **3 carros na fila**
-   - Clique nos botões das pistas para liberar os carros
-   - **Priorize veículos de emergência** (🚑 Ambulância, 🚓 Polícia) para evitar timeouts
-   - Observe as **barras de tempo de espera** de cada carro
-   - **Notificações** aparecem quando novos veículos chegam
-   - Gerencie o tráfego para maximizar sua pontuação
-   - Use **Pause** para pausar o jogo a qualquer momento
+Os scripts de instalação irão:
+- ✅ Verificar se Python 3.6+ está instalado
+- ✅ Verificar e instalar dependências necessárias
+- ✅ Validar a estrutura do projeto
+- ✅ Testar módulos básicos
+- ✅ Criar scripts de inicialização
+- ✅ Oferecer abertura automática do jogo
 
 ### 🎯 Quiz Educativo
 
@@ -226,18 +192,33 @@ TrabalhoSO/
 
 ## 🔧 Requisitos Técnicos
 
-### Para o Simulador de Cruzamento:
-- **Navegador moderno** (Chrome, Firefox, Safari, Edge)
-- **Flask** (opcional, para servidor local): `pip install flask`
-- **Pasta imagens/** com arquivo `car.png` (imagem personalizada do carro comum)
-- **JavaScript habilitado** no navegador
-- **Resolução mínima**: 1024x768 para melhor experiência visual
-
 ### Para o Quiz Educativo:
 - **Python 3.6+**
 - **Tkinter** (geralmente incluído com Python)
 - **Módulos padrão apenas** (csv, json, random, datetime, os, sys)
 - **Terminal com suporte a caracteres UTF-8** (para emojis)
+
+### Instalação de Dependências por Sistema:
+
+**Ubuntu/Debian:**
+```bash
+sudo apt update && sudo apt install python3 python3-pip python3-tk
+```
+
+**CentOS/RHEL:**
+```bash
+sudo yum install python3 python3-pip python3-tkinter
+```
+
+**macOS:**
+```bash
+brew install python-tk
+```
+
+**Windows:**
+- Baixe Python de https://python.org
+- Certifique-se de marcar "Add Python to PATH" durante a instalação
+- Tkinter já vem incluído
 
 ## 📝 Formato das Perguntas
 
@@ -276,26 +257,80 @@ O projeto foi designed para ser facilmente expandível:
 
 ## 🐛 Troubleshooting
 
-### Erro: "Arquivo de perguntas não encontrado"
+### Problemas de Instalação
+
+#### Erro: "externally-managed-environment" (Linux)
+Este é um comportamento normal em distribuições Linux modernas. O projeto funciona apenas com módulos padrão!
+```bash
+# Alternativas se precisar instalar dependências futuras:
+python3 -m venv venv && source venv/bin/activate  # Ambiente virtual
+pip install --user package_name                   # Instalação para usuário
+pipx install package_name                        # Para aplicações (recomendado)
+```
+
+#### Erro: "Arquivo de perguntas não encontrado"
 - Verifique se `perguntas/perguntas.csv` existe
 - Confirme que está executando do diretório correto
 
-### Erro: "Erro ao importar módulos"
+#### Erro: "Erro ao importar módulos"
 - Verifique se todos os arquivos estão nos locais corretos
 - Confirme que os arquivos `__init__.py` existem nas pastas
 
-### Caracteres não aparecem corretamente
+#### Caracteres não aparecem corretamente
 - Use um terminal com suporte a UTF-8
 - No Windows, tente usar PowerShell ou WSL
 
+#### Erro: "tkinter não encontrado" (Linux)
+```bash
+# Ubuntu/Debian
+sudo apt install python3-tk
+
+# CentOS/RHEL/Fedora
+sudo dnf install python3-tkinter
+
+# Arch Linux
+sudo pacman -S tk
+```
+
+#### Problemas de Permissão (Scripts)
+```bash
+# Tornar scripts executáveis
+chmod +x install_linux.sh start_quiz.sh
+```
+
 ## 📈 Melhorias Futuras
 
-- [ ] Interface gráfica com tkinter ou PyQt
-- [ ] Modo multiplayer
-- [ ] Diferentes níveis de dificuldade
-- [ ] Estatísticas mais detalhadas
-- [ ] Exportação de relatórios
-- [ ] Integração com LMS (Learning Management Systems)
+- [ ] 🌐 Interface web com Flask/Django
+- [ ] 👥 Modo multiplayer
+- [ ] 📊 Diferentes níveis de dificuldade
+- [ ] 📈 Estatísticas mais detalhadas
+- [ ] 📄 Exportação de relatórios em PDF
+- [ ] 🎓 Integração com LMS (Learning Management Systems)
+- [ ] 🔊 Suporte a áudio para acessibilidade
+- [ ] 🌍 Internacionalização (i18n)
+- [ ] 📱 Versão mobile responsiva
+- [ ] 🤖 Sistema de hints automáticos
+
+## 🤝 Contribuindo
+
+Este projeto está aberto para contribuições! Para contribuir:
+
+1. **Fork** o repositório
+2. **Crie** uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. **Commit** suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. **Push** para a branch (`git push origin feature/AmazingFeature`)
+5. **Abra** um Pull Request
+
+### Áreas que Precisam de Ajuda:
+- 📝 Mais perguntas para o banco de dados
+- 🎨 Melhorias na interface gráfica
+- 🐛 Correção de bugs
+- 📚 Documentação adicional
+- 🧪 Testes automatizados
+
+## 📄 Licença
+
+Este projeto está sob licença educativa. Sinta-se livre para usar, modificar e distribuir para fins educacionais.
 
 ---
 
